@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370043057221",
+    "project_id": "flutter-find-estate",
+    "storage_bucket": "flutter-find-estate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370043057221:android:32e0e24ff2d43b087a1f2c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_find_estate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370043057221-0admijdcfamtnabo88c05ve76l7djvqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcPaUMpyw2bia6bQudk1uCDV931rzUINc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370043057221-0admijdcfamtnabo88c05ve76l7djvqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

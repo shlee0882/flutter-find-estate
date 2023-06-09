@@ -19,7 +19,7 @@
 ## 기능 요약
 - 조회 기능
 <br>
-![조회 기능](./lib/assets/gif/gif_get_data.gif)
+![조회 기능](/lib/assets/gif/gif_get_data.gif)
 <br>
 - 푸시 알림 기능
 <br>

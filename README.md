@@ -28,6 +28,9 @@
 
 ![푸시기능](/lib/assets/gif/gif_push_test.gif)
 
+- 스케쥴링 로그(아래는 5분 간격으로 API 호출 푸시알림 테스트)
+
+![로그](/lib/assets/img/scheduling.png)
 
 <br>
 

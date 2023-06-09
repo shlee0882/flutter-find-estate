@@ -27,7 +27,6 @@ class _NotificationChecklistScreenState
   @override
   void initState() {
     super.initState();
-    _runWhileAppIsTerminated();
     _createChannel();
     _requestNotificationPermissions();
 
@@ -74,17 +73,8 @@ class _NotificationChecklistScreenState
     });
   }
 
-  void _runWhileAppIsTerminated() async {
-    var details = await flutterLocalNotificationsPlugin.getNotificationAppLaunchDetails();
-    if (details!.didNotificationLaunchApp) {
-      if (details.notificationResponse?.payload != null) {
-        Navigator.pushNamed(context,'/main');
-      }
-    }
-  }
-
   void onDidReceiveNotificationResponse(NotificationResponse notificationResponse) async {
-    Navigator.pushNamed(context,'/main');
+    Navigator.pushNamedAndRemoveUntil(context,'/main',(Route<dynamic> route) => false,);
   }
 
   void _registerNotification() async {

@@ -17,13 +17,14 @@
 <br>
 
 ## 기능 요약
-- 조회 기능
-<br>
-![조회 기능](/lib/assets/gif/gif_get_data.gif)
-<br>
-- 푸시 알림 기능
-<br>
-![푸시 기능](./lib/assets/gif/gif_push_test.gif)
+
+- 매물 조회 기능
+
+![조회기능](/lib/assets/gif/gif_get_data.gif)
+
+- 스케쥴링 푸시 알림 기능
+
+![푸시기능](/lib/assets/gif/gif_push_test.gif)
 
 
 <br>

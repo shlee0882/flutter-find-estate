@@ -40,8 +40,8 @@ async function msgPushData() {
   }
 }
 
-exports.scheduledFunction = functions.pubsub.schedule('0 9,18 * * *').onRun(async (context) => {
-  console.log('This function will run at 9:00 AM and 6:00 PM every day!');
+exports.scheduledFunction = functions.pubsub.schedule('0 18 * * *').onRun(async (context) => {
+  console.log('This function will run at 6:00 PM every day!');
   await msgPushData();
 });
 
